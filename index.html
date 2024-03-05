@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pc Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="bg-white">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand h1" href="#"><span><i class="fa-solid fa-computer icon me-3"></i></span>My Pc
+                    Studio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 h6">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="home.html">About</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#catagories">Offers</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link signinpopup" href="">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <div class="searchbar">
+        <div class="container my-4 d-flex justify-content-center justify-content-md-center">
+
+            <input type="search" placeholder="Search Products, Categories" class="p-2">
+            <button type="button" class="btn btn-info bg-white mx-1">
+                <span class="glyphicon glyphicon-search"></span><i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <span><a href="" class="text-dark  mx-2 mx-md-5 h2 cart"><i
+                        class="fa-solid fa-cart-shopping mt-2 p-2"></i></a></span>
+        </div>
+    </div>
+
+    <div class="catagories bg-white" id="catagories">
+        <div class="container-fluid">
+            <nav
+                class="navbar navbar-expand my-4 bg-white p-3 d-flex justify-content-start justify-content-md-center justify-content-lg-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-md-3"><a href="" class="nav-link probtn">Processor</a></li>
+                    <li class="nav-item mx-md-3"><a href="" class="nav-link rambtn">Ram</a></li>
+                    <li class="nav-item mx-md-3"><a href="" class="nav-link strbtn">Storage</a></li>
+                    <li class="nav-item mx-md-3"><a href="" class="nav-link cabbtn">Cabinet</a></li>
+                    <li class="nav-item mx-md-3"><a href="" class="nav-link monbtn">Monitors</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container processor-container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/i3.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>intel core i3 processor</h5>
+                                <p>From Rs.7,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/i2.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>intel core i5 processor</h5>
+                                <p>From Rs.10,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/i7.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>intel core i7 processor</h5>
+                                <p>From Rs.45,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/i9.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>intel core i9 processor</h5>
+                                <p>From Rs.50,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/r5.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>Ryzen 5 3600 processor</h5>
+                                <p>From Rs.10,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/r7.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>Ryzen 7 5600 processor</h5>
+                                <p>From Rs.17,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container ram-container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/ram1.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>DDR3 6 GB Ram</h5>
+                                <p>From Rs.1,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/ram2.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>DDR4 8GB Ram</h5>
+                                <p>From Rs.3,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/ram3.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>DDR4 16 GB (8+8)</h5>
+                                <p>From Rs.8,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/ram4.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>DDR4 32 GB Ram (16+16)</h5>
+                                <p>From Rs.12,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="storage-container">
+        <div class="container hdd-container">
+            <h4>Hard Disk Drive</h4>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img src="media/hdd1.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                            </div>
+                            <div class="col">
+                                <div class="card-body">
+                                    <h5>256 GB HDD</h5>
+                                    <p>From Rs.2,000*</p>
+                                    <button class="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img src="media/hdd2.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                            </div>
+                            <div class="col">
+                                <div class="card-body">
+                                    <h5>512 GB HDD</h5>
+                                    <p>From Rs.5,000*</p>
+                                    <button class="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img src="media/hdd3.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                            </div>
+                            <div class="col">
+                                <div class="card-body">
+                                    <h5>1 TB HDD</h5>
+                                    <p>From Rs.12,000*</p>
+                                    <button class="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container ssd-container">
+            <h4>Solid State Drive(SSD)</h4>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img src="media/hdd1.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                            </div>
+                            <div class="col">
+                                <div class="card-body">
+                                    <h5>256 GB SSD</h5>
+                                    <p>From Rs.2,000*</p>
+                                    <button class="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img src="media/hdd2.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                            </div>
+                            <div class="col">
+                                <div class="card-body">
+                                    <h5>512 GB SSD</h5>
+                                    <p>From Rs.5,000*</p>
+                                    <button class="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img src="media/hdd3.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                            </div>
+                            <div class="col">
+                                <div class="card-body">
+                                    <h5>1 TB SSD</h5>
+                                    <p>From Rs.12,000*</p>
+                                    <button class="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container cabinet-container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/c1.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>RGB Cabinet</h5>
+                                <p>From Rs.12,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/c2.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>Basic Cabinet</h5>
+                                <p>From Rs.8,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/c3.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>Basic Cabinet/h5>
+                                    <p>From Rs.10,000*</p>
+                                    <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/c4.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>RGB Cabinet</h5>
+                                <p>From Rs.18,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/c5.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>White RGB Cabinet</h5>
+                                <p>From Rs.20,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/c6.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>Basic Cabinet</h5>
+                                <p>From Rs.10,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container monitor-container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/m1.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>LG Monitor HD</h5>
+                                <p>From Rs.10,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/m2.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>ASUS Monitor HD</h5>
+                                <p>From Rs.15,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/m3.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>Samsung Monitor 4k</h5>
+                                <p>From Rs.25,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/m4.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>Dell Monitor 4K</h5>
+                                <p>From Rs.26,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/m5.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>ASUS Monitor HD</h5>
+                                <p>From Rs.15,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="media/m6.jpg" width="150" height="150" class="image-fluid rounded m-3">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5>Acer Monitor oled</h5>
+                                <p>From Rs.30,000*</p>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="signin-popup bg-dark">
+        <div class="container px-3 px-md-5 pt-5">
+            <span><a href="" class="text-decoration-none text-white popclosebtn"><i
+                        class="fa-solid fa-xmark mb-5 h2"></i></a></span>
+        </div>
+        <div class="container title-container px-3 px-md-5">
+            <h3 class="mb-4"><a href="" class="text-decoration-none text-white login">Login</a></h3>
+            <p class="text-white"> or <a href="" class="text-decoration-none text-white account">create an account</a>
+            </p>
+        </div>
+
+        <div class="container display-login ps-3 ps-md-5">
+            <form action="/" method="" id="form">
+                <input type="text" id="number" name="number" required placeholder="Phone number" class="mb-4 mt-4 p-2">
+                <button class="btn btn-warning logbtn" type="submit">Login</button>
+            </form>
+            
+        </div>
+
+        <div class="container display-account ps-3 ps-md-5">
+            <form action="/" method="get">
+                <div class="input-groups">
+                    <input type="text" id="num" name="num" required placeholder="Phone number" class="mb-4 mt-4 p-2">
+                    <input type="text" id="name" name="name" required placeholder="Name" class="mb-4 mt-4 p-2">
+                    <input type="text" id="email" name="email" required placeholder="Email" class="mb-4 mt-4 p-2">
+                </div>
+                <button class="btn btn-warning subbtn" type="submit">Submit</button>
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="footer" id="contact">
+        <div class="container p-4 text-center">
+            <div class="row">
+                <div class="col m-3 m-md-2">
+                    <a href="" class="text-decoration-none text-white ">Home</a>
+                </div>
+                <div class="col m-3 m-md-2">
+                    <a href="" class="text-decoration-none text-white ">Pc Build</a>
+                </div>
+                <div class="col m-3 m-md-2">
+                    <a href="" class="text-decoration-none text-white ">Contact</a>
+                </div>
+                <div class="col m-3 m-md-2">
+                    <a href="" class="text-decoration-none text-white ">Copyrights</a>
+                </div>
+                <div class="col m-3 m-md-2">
+                    <a href="" class="text-decoration-none text-white ">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="row my-4 links">
+                <div class="col">
+                    <a href="" class="text-decoration-none text-white h4"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="col">
+                    <a href="" class="text-decoration-none text-white h4"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="col">
+                    <a href="" class="text-decoration-none text-white h4"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="col">
+                    <a href="" class="text-decoration-none text-white h4"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <p class="h5 text-white">@2024 | My Pc Studio</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
